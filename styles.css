@@ -1,10 +1,12 @@
 body{
     background-color: lightcyan;
-}
-.card{
-    text-align: center; 
+    height: 100vh;
+    width: 100vw;
 }
 
+.card{
+    text-align: center;
+}
 .rounded-circle{
     display: block;
     margin-left: auto;
@@ -12,6 +14,88 @@ body{
     width: 50%;  
 }
 
+#aboutMe{
+  padding: 20px;
+}
+
+#education{
+  padding: 20px;
+}
+
+#experience{
+  padding: 20px;
+}
+
+#skills{
+  padding: 20px;
+  margin-left: 50px;
+}
+
 h1{
     color: white;
 }
+
+p{
+    font-family: 'Lora', serif;
+}
+
+.aboutMe{
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: lightgrey;
+  }
+  
+  #projects > div {
+    background-color: #f1f1f1;
+    width: 20px;
+    margin: 5px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .row1{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .row2{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .row1 > img {
+    width: 100px;
+    margin: 50px;
+  }
+
+  .row2 > img {
+    width: 100px;
+    margin: 50px;
+  }
+
+  footer{
+    background-color: white;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    color:rgb(11, 79, 167);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+  }
+
+  
+
