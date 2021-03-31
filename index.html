@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -65,44 +66,158 @@
             href="https://www.linkedin.com/in/karisa-randhawa-549553138/" class="card-link"><img src="./Assets/linkedIn.png" height="40px" width="40px"/></a>
         </div>
       </div>
-    </section>
 
-    
-    <!-- hero image
-    <section style="width: 66%; float: left">
-      <img src="./Assets/background1.webp" class="img-fluid" alt="..." />
-    </section> -->
-
-    <!-- <div class="position-absolute top-50 start-50 translate-middle">
-      <h1>KARISA RANDHAWA</h1>
-    </div> -->
+      <!-- form -->
+  <section id="contact">
+    <div class="container">
+      <br />
+      <br />
+      <h2 class="text-center">Lets Connect!</h2>
+      <div class="row">
+        <div class="col-12">
+          <form
+            action="https://formspree.io/f/xzbypllb"
+            method="POST"
+          >
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  id="name"
+                  required
+                  data-validation-required-message="Please enter your name"
+                  name="name"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  id="email"
+                  required
+                  data-validation-required-message="Please enter your email"
+                  name="_replyto"
+                />
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  id="message"
+                  required
+                  data-validation-required-message="Please leave a message"
+                  name="message"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button style= "background-color: skyblue" type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
 
     <br />
 
     <!-- nav bar -->
     <section style="width: 76%; float: left; margin-top:-5vh; ">
+      <div id="position">
       <ul class="nav nav-tabs">
+
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#aboutMe">
+                <img src="./Assets/aboutMe.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                About Me
+              </a>
+            </div>
+          </nav>
+          <!-- <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a> -->
+        </li>
+
+        <li class="nav-item">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#education">
+                <img src="./Assets/education.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Education
+              </a>
+            </div>
+          </nav>
+          <!-- <a class="nav-link" href="#education">Education</a> -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#education">Education</a>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#experience">
+                <img src="./Assets/experiences.png" alt="" width="30" height="26" class="d-inline-block align-text-top">
+                Experiences
+              </a>
+            </div>
+          </nav>
+          <!-- <a class="nav-link" href="#experience">Experience</a> -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#projects">
+                <img src="./Assets/projects.png" alt="" width="30" height="26" class="d-inline-block align-text-top">
+                Projects
+              </a>
+            </div>
+          </nav>
+          <!-- <a class="nav-link" href="#projects">Projects</a> -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#skills">
+                <img src="./Assets/skills.jpg" alt="" width="30" height="28" class="d-inline-block align-text-top">
+                Skills
+              </a>
+            </div>
+          </nav>
+          <!-- <a class="nav-link" href="#skills">Skills</a> -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#contact">
+                <img src="./Assets/connect.png" alt="" width="30" height="26" class="d-inline-block align-text-top">
+                Contact Me
+              </a>
+            </div>
+          </nav>
+          <!-- <a class="nav-link" href="#contact">Connect</a> -->
         </li>
       </ul>
+      </div>
 
       <br />
 
       <div id="aboutMe">
-        <h3>About Me</h2>
+        <h3><img src="./Assets/aboutMe.jpg" height="40" width="35">  About Me</h3>
         <p class="aboutMe">
           Fresh out of the Financial Sector, I decided explore the Tech Industry and discovered my creativity and the love I have for coding and how much I enjoy working in teams and exploring other people's talents and skills.Aside for my love for Tech, I love reading a great book and traveling as much as I can with my family.
           I was always a diligent person but coding impled me to work harder and be greater and for that I am proud!
@@ -111,9 +226,9 @@
         <hr>
       </div>
 
-      <section style="width: 40%; float: left">
+      <section style="width: 40%; float: left;">
         <div id="education">
-          <h3>Education</h3>
+          <h3><img src="./Assets/education.png" height="40" width="35">Education</h3>
           
           <h4>Eleven Fifty Academy</h4>
           <p>Web Developement
@@ -137,7 +252,7 @@
         </div>
       </section>
 
-      <section style="width: 40%; float: right">
+      <section style="width: 40%; float: right;">
         <div id="experience">
           <h3>Experience</h3>
 

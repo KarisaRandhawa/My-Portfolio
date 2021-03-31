@@ -3,9 +3,16 @@ body{
     height: 100vh;
     width: 100vw;
 }
-
 .card{
     text-align: center;
+}
+
+#position{
+  position: fixed;
+  /* padding: 10px; */
+  margin-bottom: 20px;
+  background-color: white;
+  font-size: x-large;
 }
 .rounded-circle{
     display: block;
@@ -14,6 +21,9 @@ body{
     width: 50%;  
 }
 
+#contact{
+background-color: white;
+}
 #aboutMe{
   padding: 20px;
 }
@@ -40,14 +50,15 @@ p{
 }
 
 .aboutMe{
+  margin-top: 30px;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 
 h3{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
