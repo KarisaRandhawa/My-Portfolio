@@ -9,24 +9,24 @@ body {
 
 #position {
   position: fixed;
-  /* padding: 10px; */
   margin-bottom: 20px;
   background-color: white;
-  font-size: x-large;
 }
 .rounded-circle {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 45%;
+  height: 55%;
 }
 
 #contact {
   background-color: white;
-  margin-left: 20px;
+  /* margin-left: 5px; */
 }
 
 label {
+  margin-left: 5px;
   font-family: "Anton", sans-serif;
   font-family: "Averia Serif Libre", cursive;
   font-family: "Dela Gothic One", cursive;
@@ -90,6 +90,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Anton", sans-serif;
+  font-size: 45px;
 }
 
 h5 {
@@ -107,20 +108,27 @@ h5 {
 #projects > div {
   background-color: #f1f1f1;
   width: 20px;
-  margin: 5px;
+  margin: 20px;
   text-align: center;
   line-height: 20px;
   font-size: 15px;
 }
 
+#skills{
+  margin-left: 100px;
+}
+
 .row1 {
   display: flex;
   flex-wrap: nowrap;
+  margin-left: 100px;
+  /* margin-top: 20px; */
 }
 
 .row2 {
   display: flex;
   flex-wrap: nowrap;
+  margin-left: 100px;
 }
 
 .row1 > img {
